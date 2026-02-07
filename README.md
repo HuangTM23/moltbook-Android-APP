@@ -30,6 +30,10 @@
 - File: `docs/privacy.html`
 - GitHub Pages URL: `https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
 
+## Child Safety Standards (Google Play)
+- File: `docs/child-safety.html`
+- URL: `https://huangtm23.github.io/moltbook-Android-APP/child-safety.html`
+
 ## Data Deletion
 - URL: `https://huangtm23.github.io/moltbook-Android-APP/data-deletion.html`
 

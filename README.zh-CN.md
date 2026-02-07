@@ -68,5 +68,10 @@
 
 `https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
 
+## 儿童安全标准（Google Play）
+
+- 文件：`docs/child-safety.html`
+- URL：`https://huangtm23.github.io/moltbook-Android-APP/child-safety.html`
+
 ## 反馈
 - X: `https://x.com/Dawn20251201/status/2020041752183459879?s=20`
