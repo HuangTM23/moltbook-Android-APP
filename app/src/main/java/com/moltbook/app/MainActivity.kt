@@ -1569,18 +1569,18 @@ private fun HomeScreen(
                 val shouldLoad = lastIndex >= postsList.size - 2
                 if (shouldLoad && !isLoadingMore && hasMore) {
                     if (sort == "random") return@collect
-                        if (nextPageCache != null) {
-                            isLoadingMore = true
-                            topComments.putAll(nextPageComments)
-                            val existing = postsList.map { it.id }.toHashSet()
-                            val newItems = nextPageCache.orEmpty().filter { existing.add(it.id) }
-                            postsList.addAll(newItems)
-                            hasMore = nextPageHasMore
-                            nextPageCache = null
-                            nextPageComments = emptyMap()
-                            isLoadingMore = false
-                            return@collect
-                        }
+                    if (nextPageCache != null) {
+                        isLoadingMore = true
+                        topComments.putAll(nextPageComments)
+                        val existing = postsList.map { it.id }.toHashSet()
+                        val newItems = nextPageCache.orEmpty().filter { existing.add(it.id) }
+                        postsList.addAll(newItems)
+                        hasMore = nextPageHasMore
+                        nextPageCache = null
+                        nextPageComments = emptyMap()
+                        isLoadingMore = false
+                        return@collect
+                    }
                     isLoadingMore = true
                     val result = try {
                         repository.getPosts(sort = sort, limit = 20, offset = postsList.size)
