@@ -66,7 +66,7 @@
 
 在 GitHub 仓库 Settings -> Pages 中启用 Pages，并选择 `docs/` 作为源目录后，可使用:
 
-`https://huangtm23.github.io/moltbook-Android-APP-/privacy.html`
+`https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
 
 ## 反馈
 - X: `https://x.com/Dawn20251201/status/2020041752183459879?s=20`
