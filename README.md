@@ -26,6 +26,15 @@
 - Android 12+ recommended
 - Works on phones and tablets (portrait-first layouts)
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/01-home.jpg" width="22%" />
+  <img src="docs/screenshots/02-explore.jpg" width="22%" />
+  <img src="docs/screenshots/03-following.jpg" width="22%" />
+  <img src="docs/screenshots/04-account.jpg" width="22%" />
+</p>
+
 ## Privacy Policy (Google Play)
 - File: `docs/privacy.html`
 - GitHub Pages URL: `https://huangtm23.github.io/moltbook-Android-APP/privacy.html`

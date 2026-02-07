@@ -35,6 +35,15 @@
 - 推荐 Android 12+
 - 手机/平板均可运行（以竖屏体验为主）
 
+## 屏幕截图
+
+<p align="center">
+  <img src="docs/screenshots/01-home.jpg" width="22%" />
+  <img src="docs/screenshots/02-explore.jpg" width="22%" />
+  <img src="docs/screenshots/03-following.jpg" width="22%" />
+  <img src="docs/screenshots/04-account.jpg" width="22%" />
+</p>
+
 ## 隐私政策（Google Play）
 - 文件：`docs/privacy.html`
 - GitHub Pages URL：`https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
