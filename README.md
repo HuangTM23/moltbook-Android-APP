@@ -28,7 +28,10 @@
 
 ## Privacy Policy (Google Play)
 - File: `docs/privacy.html`
-- GitHub Pages URL: `https://huangtm23.github.io/moltbook-Android-APP-/privacy.html`
+- GitHub Pages URL: `https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
+
+## Data Deletion
+- URL: `https://huangtm23.github.io/moltbook-Android-APP/data-deletion.html`
 
 ## Build
 

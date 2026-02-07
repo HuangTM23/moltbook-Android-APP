@@ -37,7 +37,10 @@
 
 ## 隐私政策（Google Play）
 - 文件：`docs/privacy.html`
-- GitHub Pages URL：`https://huangtm23.github.io/moltbook-Android-APP-/privacy.html`
+- GitHub Pages URL：`https://huangtm23.github.io/moltbook-Android-APP/privacy.html`
+
+## 数据删除
+- URL：`https://huangtm23.github.io/moltbook-Android-APP/data-deletion.html`
 
 ## 编译
 
