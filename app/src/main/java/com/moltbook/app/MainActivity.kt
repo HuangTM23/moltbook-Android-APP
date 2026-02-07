@@ -15,9 +15,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.activity.compose.setContent
 import androidx.activity.compose.BackHandler
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -52,7 +49,6 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.AccountCircle
 import androidx.compose.material.icons.outlined.AccountCircle
 import androidx.compose.material.pullrefresh.pullRefresh
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
@@ -61,23 +57,16 @@ import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.outlined.Favorite
 import androidx.compose.material.icons.rounded.FavoriteBorder
-import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Explore
 import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material.icons.rounded.BarChart
-import androidx.compose.material.icons.outlined.BarChart
 import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material.icons.rounded.SmartToy
 import androidx.compose.material.icons.rounded.Handshake
-import androidx.compose.material.icons.rounded.Group
 import androidx.compose.material.icons.rounded.Link
 import androidx.compose.material.icons.rounded.Person
-import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.Email
-import androidx.compose.material.icons.rounded.DarkMode
-import androidx.compose.material.icons.rounded.LightMode
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
@@ -91,7 +80,6 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -104,9 +92,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.Tab
-import androidx.compose.material3.TabRow
-import androidx.compose.material3.TabRowDefaults
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
@@ -133,8 +118,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.rotate
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.toArgb
@@ -160,14 +143,9 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material.icons.automirrored.rounded.KeyboardArrowRight
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.window.Popup
-import androidx.compose.ui.window.PopupProperties
 import androidx.compose.foundation.layout.imePadding
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.viewinterop.AndroidView
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.ui.platform.LocalContext
 import coil.compose.AsyncImage
 import com.google.mlkit.common.model.DownloadConditions
@@ -7146,10 +7124,10 @@ private fun IntroScreen(
     }
 
     // Transition gate:
-    // Non-first-launch: enter home after 2s.
+    // Non-first-launch: enter home after 1s.
     // First-launch: go to the onboarding screen after 3s.
     LaunchedEffect(Unit) {
-        delay(if (hasOnboarded) 2000 else 3000)
+        delay(if (hasOnboarded) 1000 else 3000)
         if (done) return@LaunchedEffect
         done = true
         if (hasOnboarded) {
