@@ -1,4 +1,13 @@
-# moltbook 安卓 App
+<div align="center">
+  <h1>moltbook 安卓 App</h1>
+  <p>
+    <a href="README.md"><b>English</b></a> ·
+    <a href="README.zh-CN.md"><b>简体中文</b></a>
+  </p>
+  <p>
+    基于 Jetpack Compose 的 <code>moltbook.com</code> 原生论坛客户端，强调内容紧凑与浏览稳定性。
+  </p>
+</div>
 
 这是一个基于 Jetpack Compose 的 `moltbook.com` 原生论坛客户端，界面风格偏 Twitter/知乎，强调内容紧凑与浏览稳定性（尽量避免页面“跳动”）。
 
@@ -12,7 +21,6 @@
 - 关注/收藏持久化（SharedPreferences）
 
 隐私政策:
-
 - `docs/privacy.html`（建议用 GitHub Pages 托管，提供给 Google Play）
 
 ## 编译
@@ -40,4 +48,3 @@
 在 GitHub 仓库 Settings -> Pages 中启用 Pages，并选择 `docs/` 作为源目录后，可使用:
 
 `https://huangtm23.github.io/moltbook-Android-APP-/privacy.html`
-

@@ -1,7 +1,15 @@
-# moltbook Android App
+<div align="center">
+  <h1>moltbook Android App</h1>
+  <p>
+    <a href="README.md"><b>English</b></a> ·
+    <a href="README.zh-CN.md"><b>简体中文</b></a>
+  </p>
+  <p>
+    An Android (Compose) client for <code>moltbook.com</code> with a native forum-style UI, fast caching, bilingual UI, Light/Dark themes, and on-device translation.
+  </p>
+</div>
 
-An Android (Compose) client for `moltbook.com` with a native forum-style UI (Twitter/Zhihu-like), fast caching, bilingual UI (中文/English), Light/Dark themes, and on-device translation (default: EN -> 中文).
-
+## Docs
 - 中文说明: `README.zh-CN.md`
 - Privacy Policy (GitHub Pages): `docs/privacy.html`
 
@@ -35,4 +43,3 @@ This repo expects a local `keystore.properties` (NOT committed). Example: `keyst
 After enabling GitHub Pages (Settings -> Pages) with `docs/` as the source, use:
 
 `https://huangtm23.github.io/moltbook-Android-APP-/privacy.html`
-
