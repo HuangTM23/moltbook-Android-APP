@@ -8,14 +8,14 @@ plugins {
 
 android {
     namespace = "com.moltbook.app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.moltbook.app"
         minSdk = 31
-        targetSdk = 34
-        versionCode = 1
-        versionName = "0.1.0"
+        targetSdk = 35
+        versionCode = 2
+        versionName = "0.1.1"
     }
 
     signingConfigs {
@@ -44,6 +44,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            ndk {
+                // Generate native debug symbols for Play Console crash/ANR symbolication.
+                debugSymbolLevel = "FULL"
+            }
             signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
