@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+**/build/
+local.properties
+*.log
+.DS_Store
+*.jks
+*.keystore
+*.aab
+*.apk
+keystore.properties
+
+# Optional store assets (screenshots, icons) if you keep them here
+store-assets/

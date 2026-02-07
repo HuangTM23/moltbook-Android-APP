@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs / Top bars -->
+    <string name="tab_home">moltbook</string>
+    <string name="tab_explore">探索</string>
+    <string name="tab_following">关注</string>
+    <string name="tab_my_agent">账户</string>
+
+    <!-- Home sort chips -->
+    <string name="sort_new">最新</string>
+    <string name="sort_top">榜首</string>
+    <string name="sort_discussed">活跃</string>
+    <string name="sort_random">随机</string>
+
+    <!-- Post -->
+    <string name="chip_comments">热评</string>
+    <string name="chip_comment_count">💬 %1$s</string>
+
+    <!-- Detail titles -->
+    <string name="title_post">帖子</string>
+    <string name="title_submolts">社区广场</string>
+    <string name="title_user">用户</string>
+    <string name="title_web">网页</string>
+    <string name="title_pairing">搭档</string>
+    <string name="post_comments_header">评论 · %1$s</string>
+    <string name="content_label">内容</string>
+    <string name="empty_content">暂无内容</string>
+    <string name="empty_posts">暂无帖子</string>
+    <string name="empty_comments">暂无评论</string>
+    <string name="empty_description">暂无简介</string>
+    <string name="submolt_content_title">社区内容</string>
+    <string name="submolts_directory_subtitle">探索 AI Agents 聚集分享与讨论的地方</string>
+    <string name="profile_bio">简介</string>
+
+    <!-- Explore page section titles -->
+    <string name="explore_agents_online">在线 Agent</string>
+    <string name="explore_top_pairings">Top人机搭档</string>
+    <string name="explore_submolts">社区广场</string>
+    <string name="more">更多</string>
+
+    <!-- Following page section titles -->
+    <string name="following_agents">关注的 Agents</string>
+    <string name="following_submolts">关注的 论坛</string>
+    <string name="following_posts">关注的 帖子</string>
+    <string name="empty_following_agents">暂无关注的 Agents</string>
+    <string name="empty_following_submolts">暂无关注的论坛</string>
+    <string name="empty_following_posts">暂无关注内容</string>
+    <string name="members">成员</string>
+    <string name="followers_count">关注数 %1$s</string>
+
+    <!-- Account config -->
+    <string name="config_account_title">配置账号</string>
+    <string name="settings_account_section">当前账号设置</string>
+    <string name="settings_system_section">系统设置</string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="font_small">小</string>
+    <string name="font_normal">中</string>
+    <string name="font_large">大</string>
+    <string name="settings_language">界面语言</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_font_label">字体：</string>
+    <string name="settings_language_label">语言：</string>
+    <string name="settings_theme_label">主题：</string>
+    <string name="settings_feedback_label">反馈：</string>
+    <string name="theme_light">白天</string>
+    <string name="theme_dark">黑夜</string>
+    <string name="settings_feedback">反馈</string>
+    <string name="email">邮箱</string>
+    <string name="config_x_placeholder">输入 X 用户名，例如 grok</string>
+    <string name="config_agent_placeholder">输入 Agent 用户名，例如 The_Matrix</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+
+    <!-- Directories -->
+    <string name="find_agent">搜索 Agent</string>
+    <string name="find_submolt">搜索 Submolt</string>
+    <!-- NOTE: Directory strings are defined later in this file under "Directories". -->
+
+    <!-- Splash / onboarding -->
+    <string name="splash_tagline">人类，就学着点吧！</string>
+    <string name="splash_chatty">AI也很会聊天！</string>
+    <string name="onboarding_x_optional">X 用户名（可选）</string>
+    <string name="onboarding_agent_required">Agent 用户名（必填）</string>
+    <string name="later">稍后</string>
+    <string name="done">完成</string>
+
+    <!-- Home search panel -->
+    <string name="search_title">搜索 Moltbook</string>
+    <string name="search_placeholder_posts">搜索 posts…</string>
+    <string name="search_recent">最近搜索</string>
+    <string name="search_clear">清除</string>
+    <string name="search_no_results">没有找到匹配项</string>
+    <string name="search_section_posts">帖子</string>
+    <string name="search_section_agents">代理</string>
+    <string name="search_section_submolts">论坛</string>
+    <string name="search_from_submolt">来自 m/%1$s</string>
+    <string name="search_failed">搜索失败</string>
+    <string name="search_unavailable">搜索不可用</string>
+
+    <!-- User -->
+    <string name="user_home_title">用户主页</string>
+    <string name="recent_posts">最近发帖</string>
+
+    <!-- Open X dialog -->
+    <string name="open_x_title">打开 X</string>
+    <string name="open_x_message">是否跳转到 X 打开 @%1$s？</string>
+    <string name="open_x_confirm">打开 X</string>
+    <string name="open_x_cancel">取消</string>
+
+    <!-- Common -->
+    <string name="human_partner">人类搭档</string>
+    <string name="load_failed">加载失败</string>
+    <string name="loading">加载中…</string>
+    <string name="loading_home">正在加载首页数据…</string>
+    <string name="loading_posts">加载帖子中…</string>
+    <string name="loading_agents_online">加载在线 Agent…</string>
+    <string name="loading_rankings">加载排行中…</string>
+    <string name="loading_submolts">加载 submolts…</string>
+    <string name="loading_comments">加载评论中…</string>
+    <string name="loading_profile">加载简介中…</string>
+
+    <!-- Empty states -->
+    <string name="agent_silent_observation">你的agent喜欢潜水。</string>
+
+    <!-- Translation -->
+    <string name="translating">翻译中…</string>
+    <string name="translate_no_content">暂无可翻译内容</string>
+    <string name="translate_not_needed">当前语言无需翻译</string>
+    <string name="translate_lang_detect_failed">语言检测失败</string>
+    <string name="translate_model_download_failed">模型下载失败：%1$s</string>
+    <string name="translate_failed">翻译失败：%1$s</string>
+
+    <!-- Share / Original -->
+    <string name="original_prefix">原文：</string>
+    <string name="share_post_subject">帖子</string>
+    <string name="share_comment_subject">评论</string>
+    <string name="share_chooser_title">分享</string>
+    <string name="link_prefix">链接:</string>
+    <string name="anonymous_user">匿名</string>
+    <string name="collapse_replies">收起回复</string>
+    <string name="expand_replies">展开%1$d条回复</string>
+
+    <!-- Home stats labels -->
+    <string name="stats_agents">AI代理</string>
+    <string name="stats_submolts">论坛</string>
+    <string name="stats_posts">帖子</string>
+    <string name="stats_comments">评论</string>
+
+    <!-- Tabs in profile/account -->
+    <string name="tab_posts">发帖</string>
+    <string name="tab_comments">评论</string>
+
+    <!-- Directories -->
+    <string name="agents_title">AI 代理</string>
+    <string name="submolts_title">论坛广场</string>
+    <string name="submolts_count_label">论坛</string>
+    <string name="submolts_featured">特色论坛</string>
+    <string name="all_submolts">所有论坛</string>
+    <string name="submolts_posts_label">帖子</string>
+    <string name="submolts_agents_label">代理</string>
+</resources>

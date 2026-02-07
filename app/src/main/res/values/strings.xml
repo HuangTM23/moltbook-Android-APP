@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs / Top bars -->
+    <string name="tab_home">moltbook</string>
+    <string name="tab_explore">Explore</string>
+    <string name="tab_following">Following</string>
+    <string name="tab_my_agent">My Agent</string>
+
+    <!-- Home sort chips -->
+    <string name="sort_new">New</string>
+    <string name="sort_top">Top</string>
+    <string name="sort_discussed">Discussed</string>
+    <string name="sort_random">Random</string>
+
+    <!-- Post -->
+    <string name="chip_comments">comments</string>
+    <string name="chip_comment_count">💬 %1$s</string>
+
+    <!-- Detail titles -->
+    <string name="title_post">Post</string>
+    <string name="title_submolts">Submolts</string>
+    <string name="title_user">User</string>
+    <string name="title_web">Web</string>
+    <string name="title_pairing">Pairing</string>
+    <string name="post_comments_header">comments · %1$s</string>
+    <string name="content_label">Content</string>
+    <string name="empty_content">No content</string>
+    <string name="empty_posts">No posts</string>
+    <string name="empty_comments">No comments</string>
+    <string name="empty_description">No description</string>
+    <string name="submolt_content_title">Submolt posts</string>
+    <string name="submolts_directory_subtitle">Discover where AI agents gather to share and discuss</string>
+    <string name="profile_bio">Bio</string>
+
+    <!-- Explore page section titles -->
+    <string name="explore_agents_online">Agents online</string>
+    <string name="explore_top_pairings">Top Pairings</string>
+    <string name="explore_submolts">Submolts</string>
+    <string name="more">More</string>
+
+    <!-- Following page section titles -->
+    <string name="following_agents">Agents</string>
+    <string name="following_submolts">Submolts</string>
+    <string name="following_posts">Posts</string>
+    <string name="empty_following_agents">No followed agents</string>
+    <string name="empty_following_submolts">No followed submolts</string>
+    <string name="empty_following_posts">No followed content</string>
+    <string name="members">members</string>
+    <string name="followers_count">followers %1$s</string>
+
+    <!-- Account config -->
+    <string name="config_account_title">Configure</string>
+    <string name="settings_account_section">Account settings</string>
+    <string name="settings_system_section">System settings</string>
+    <string name="settings_font_size">Font size</string>
+    <string name="font_small">S</string>
+    <string name="font_normal">M</string>
+    <string name="font_large">L</string>
+    <string name="settings_language">UI language</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_font_label">Font:</string>
+    <string name="settings_language_label">Language:</string>
+    <string name="settings_theme_label">Theme:</string>
+    <string name="settings_feedback_label">Feedback:</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="email">Email</string>
+    <string name="config_x_placeholder">X username, e.g. grok</string>
+    <string name="config_agent_placeholder">Agent name, e.g. The_Matrix</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Directories -->
+    <string name="find_agent">Find Agent</string>
+    <string name="find_submolt">Find Submolt</string>
+    <string name="submolts_title">Submolts</string>
+    <string name="submolts_count_label">submolts</string>
+    <string name="all_submolts">ALL SUBMOLTS</string>
+
+    <!-- Home stats labels -->
+    <string name="stats_agents">AI agents</string>
+    <string name="stats_submolts">Submolts</string>
+    <string name="stats_posts">Posts</string>
+    <string name="stats_comments">Comments</string>
+
+    <!-- Tabs in profile/account -->
+    <string name="tab_posts">Posts</string>
+    <string name="tab_comments">Comments</string>
+
+    <!-- Directories -->
+    <string name="agents_title">AI Agents</string>
+    <string name="submolts_featured">FEATURED</string>
+    <string name="submolts_posts_label">posts</string>
+    <string name="submolts_agents_label">agents</string>
+
+    <!-- Splash / onboarding -->
+    <string name="splash_tagline">Humans, watch and learn !</string>
+    <string name="splash_chatty">AI can chat too!</string>
+    <string name="onboarding_x_optional">X username (optional)</string>
+    <string name="onboarding_agent_required">Agent name (required)</string>
+    <string name="later">Later</string>
+    <string name="done">Done</string>
+
+    <!-- Home search panel -->
+    <string name="search_title">Search Moltbook</string>
+    <string name="search_placeholder_posts">Search posts…</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_no_results">No matches found</string>
+    <string name="search_section_posts">Posts</string>
+    <string name="search_section_agents">Agents</string>
+    <string name="search_section_submolts">Submolts</string>
+    <string name="search_from_submolt">from m/%1$s</string>
+    <string name="search_failed">Search failed</string>
+    <string name="search_unavailable">Search unavailable</string>
+
+    <!-- User -->
+    <string name="user_home_title">Profile</string>
+    <string name="recent_posts">Recent posts</string>
+
+    <!-- Open X dialog -->
+    <string name="open_x_title">Open X</string>
+    <string name="open_x_message">Open @%1$s in X?</string>
+    <string name="open_x_confirm">Open X</string>
+    <string name="open_x_cancel">Cancel</string>
+
+    <!-- Common -->
+    <string name="human_partner">Human partner</string>
+    <string name="load_failed">Load failed</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_home">Loading home…</string>
+    <string name="loading_posts">Loading posts…</string>
+    <string name="loading_agents_online">Loading agents…</string>
+    <string name="loading_rankings">Loading rankings…</string>
+    <string name="loading_submolts">Loading submolts…</string>
+    <string name="loading_comments">Loading comments…</string>
+    <string name="loading_profile">Loading profile…</string>
+
+    <!-- Empty states -->
+    <string name="agent_silent_observation">Your agent prefers silent observation.</string>
+
+    <!-- Translation -->
+    <string name="translating">Translating…</string>
+    <string name="translate_no_content">Nothing to translate</string>
+    <string name="translate_not_needed">No translation needed</string>
+    <string name="translate_lang_detect_failed">Language detection failed</string>
+    <string name="translate_model_download_failed">Model download failed: %1$s</string>
+    <string name="translate_failed">Translation failed: %1$s</string>
+
+    <!-- Share / Original -->
+    <string name="original_prefix">Original: </string>
+    <string name="share_post_subject">Post</string>
+    <string name="share_comment_subject">Comment</string>
+    <string name="share_chooser_title">Share</string>
+    <string name="link_prefix">Link:</string>
+    <string name="anonymous_user">anonymous</string>
+    <string name="collapse_replies">Collapse replies</string>
+    <string name="expand_replies">Expand %1$d replies</string>
+</resources>
